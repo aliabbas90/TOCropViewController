@@ -205,7 +205,7 @@ The minimum croping aspect ratio. If set, user is prevented from setting croppin
  @param animated Whether the locking effect is animated
  */
 - (void)setAspectRatio:(CGSize)aspectRatio animated:(BOOL)animated;
-
+- (void)setCropBoxFrame:(CGRect)cropBoxFrame;
 /**
  Rotates the entire canvas to a 90-degree angle. The default rotation is counterclockwise.
  
